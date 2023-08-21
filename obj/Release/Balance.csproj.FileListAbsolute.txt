@@ -1,0 +1,110 @@
+C:\Users\owner\AppData\Local\Temporary Projects\Balance\bin\Release\Balance.exe
+C:\Users\owner\AppData\Local\Temporary Projects\Balance\bin\Release\Balance.pdb
+C:\Users\owner\AppData\Local\Temporary Projects\Balance\obj\Release\ResolveAssemblyReference.cache
+C:\Users\owner\AppData\Local\Temporary Projects\Balance\obj\Release\Login.baml
+C:\Users\owner\AppData\Local\Temporary Projects\Balance\obj\Release\Login.g.cs
+C:\Users\owner\AppData\Local\Temporary Projects\Balance\obj\Release\App.g.cs
+C:\Users\owner\AppData\Local\Temporary Projects\Balance\obj\Release\Balance_MarkupCompile.cache
+C:\Users\owner\AppData\Local\Temporary Projects\Balance\obj\Release\Balance.g.resources
+C:\Users\owner\AppData\Local\Temporary Projects\Balance\obj\Release\Balance.Properties.Resources.resources
+C:\Users\owner\AppData\Local\Temporary Projects\Balance\obj\Release\Balance.csproj.GenerateResource.Cache
+C:\Users\owner\AppData\Local\Temporary Projects\Balance\obj\Release\Balance.exe
+C:\Users\owner\AppData\Local\Temporary Projects\Balance\obj\Release\Balance.pdb
+C:\Users\owner\AppData\Local\Temporary Projects\Balance\obj\Release\Dashboard.baml
+C:\Users\owner\AppData\Local\Temporary Projects\Balance\obj\Release\Dashboard.g.cs
+C:\Users\owner\AppData\Local\Temporary Projects\Balance\bin\Release\Balance.exe.manifest
+C:\Users\owner\AppData\Local\Temporary Projects\Balance\bin\Release\Balance.application
+C:\Users\owner\AppData\Local\Temporary Projects\Balance\obj\Release\Balance.exe.manifest
+C:\Users\owner\AppData\Local\Temporary Projects\Balance\obj\Release\Balance.application
+C:\Users\owner\Documents\Visual Studio 2008\Projects\Balance\Balance\obj\Release\Balance.exe
+C:\Users\owner\Documents\Visual Studio 2008\Projects\Balance\Balance\obj\Release\Balance.pdb
+C:\Users\owner\Documents\Visual Studio 2008\Projects\Balance\Balance\bin\Release\Balance.exe.manifest
+C:\Users\owner\Documents\Visual Studio 2008\Projects\Balance\Balance\bin\Release\Balance.application
+C:\Users\owner\Documents\Visual Studio 2008\Projects\Balance\Balance\bin\Release\Balance.exe
+C:\Users\owner\Documents\Visual Studio 2008\Projects\Balance\Balance\bin\Release\Balance.pdb
+C:\Users\owner\Documents\Visual Studio 2008\Projects\Balance\Balance\obj\Release\ResolveAssemblyReference.cache
+C:\Users\owner\Documents\Visual Studio 2008\Projects\Balance\Balance\obj\Release\Dashboard.baml
+C:\Users\owner\Documents\Visual Studio 2008\Projects\Balance\Balance\obj\Release\Login.baml
+C:\Users\owner\Documents\Visual Studio 2008\Projects\Balance\Balance\obj\Release\Dashboard.g.cs
+C:\Users\owner\Documents\Visual Studio 2008\Projects\Balance\Balance\obj\Release\Login.g.cs
+C:\Users\owner\Documents\Visual Studio 2008\Projects\Balance\Balance\obj\Release\App.g.cs
+C:\Users\owner\Documents\Visual Studio 2008\Projects\Balance\Balance\obj\Release\Balance_MarkupCompile.cache
+C:\Users\owner\Documents\Visual Studio 2008\Projects\Balance\Balance\obj\Release\Balance.g.resources
+C:\Users\owner\Documents\Visual Studio 2008\Projects\Balance\Balance\obj\Release\Balance.Properties.Resources.resources
+C:\Users\owner\Documents\Visual Studio 2008\Projects\Balance\Balance\obj\Release\Balance.csproj.GenerateResource.Cache
+C:\Users\owner\Documents\Visual Studio 2008\Projects\Balance\Balance\obj\Release\Balance.exe.manifest
+C:\Users\owner\Documents\Visual Studio 2008\Projects\Balance\Balance\obj\Release\Balance.application
+C:\work\balanceproj\Balance\obj\Release\ResolveAssemblyReference.cache
+C:\work\balanceproj\Balance\obj\Release\Dashboard.baml
+C:\work\balanceproj\Balance\obj\Release\Login.baml
+C:\work\balanceproj\Balance\obj\Release\Dashboard.g.cs
+C:\work\balanceproj\Balance\obj\Release\Login.g.cs
+C:\work\balanceproj\Balance\obj\Release\App.g.cs
+C:\work\balanceproj\Balance\obj\Release\Balance.Properties.Resources.resources
+C:\work\balanceproj\Balance\obj\Release\Balance.csproj.GenerateResource.Cache
+C:\work\balanceproj\Balance\obj\Release\HomeWindow.baml
+C:\work\balanceproj\Balance\obj\Release\HomeWindow.g.cs
+C:\work\balanceproj\Balance\obj\Release\CurrentBalance.baml
+C:\work\balanceproj\Balance\obj\Release\CurrentBalance.g.cs
+C:\work\balanceproj\Balance\obj\Release\Inventory.baml
+C:\work\balanceproj\Balance\obj\Release\Inventory.g.cs
+C:\work\balanceproj\Balance\obj\Release\Debtors.baml
+C:\work\balanceproj\Balance\obj\Release\Debtors.g.cs
+C:\work\balanceproj\Balance\bin\Release\EWeb Balance.exe.config
+C:\work\balanceproj\Balance\bin\Release\EWeb Balance.exe.manifest
+C:\work\balanceproj\Balance\bin\Release\EWeb Balance.application
+C:\work\balanceproj\Balance\bin\Release\EWeb Balance.exe
+C:\work\balanceproj\Balance\bin\Release\EWeb Balance.pdb
+C:\work\balanceproj\Balance\obj\Release\EWeb Balance_MarkupCompile.cache
+C:\work\balanceproj\Balance\obj\Release\EWeb Balance.g.resources
+C:\work\balanceproj\Balance\obj\Release\EWeb Balance.exe.manifest
+C:\work\balanceproj\Balance\obj\Release\EWeb Balance.application
+C:\work\balanceproj\Balance\obj\Release\EWeb Balance.exe
+C:\work\balanceproj\Balance\obj\Release\EWeb Balance.pdb
+C:\work\balanceproj\Balance\obj\Release\Balance.AboutEWeb.resources
+C:\work\balanceproj10\Balance\bin\Release\Invoice365.exe.config
+C:\work\balanceproj10\Balance\bin\Release\Invoice365.exe.manifest
+C:\work\balanceproj10\Balance\bin\Release\Invoice365.application
+C:\work\balanceproj10\Balance\bin\Release\Invoice365.exe
+C:\work\balanceproj10\Balance\bin\Release\Invoice365.pdb
+C:\work\balanceproj10\Balance\bin\Release\Interop.XPS_SHL_DLLLib.dll
+C:\work\balanceproj10\Balance\obj\Release\ResolveAssemblyReference.cache
+C:\work\balanceproj10\Balance\obj\Release\Interop.XPS_SHL_DLLLib.dll
+C:\work\balanceproj10\Balance\obj\Release\Balance.csproj.ResolveComReference.cache
+C:\work\balanceproj10\Balance\obj\Release\EditInvoice.baml
+C:\work\balanceproj10\Balance\obj\Release\HomeWindow.baml
+C:\work\balanceproj10\Balance\obj\Release\Inventory.baml
+C:\work\balanceproj10\Balance\obj\Release\Login.baml
+C:\work\balanceproj10\Balance\obj\Release\PrintInvoice.baml
+C:\work\balanceproj10\Balance\obj\Release\invoice.baml
+C:\work\balanceproj10\Balance\obj\Release\Invoices.baml
+C:\work\balanceproj10\Balance\obj\Release\BureauBlue.baml
+C:\work\balanceproj10\Balance\obj\Release\CustomerFrame.baml
+C:\work\balanceproj10\Balance\obj\Release\ExpressionLight.baml
+C:\work\balanceproj10\Balance\obj\Release\SalesReport.baml
+C:\work\balanceproj10\Balance\obj\Release\ShinyBlue.baml
+C:\work\balanceproj10\Balance\obj\Release\Skins.baml
+C:\work\balanceproj10\Balance\obj\Release\WhistlerBlue.baml
+C:\work\balanceproj10\Balance\obj\Release\App.baml
+C:\work\balanceproj10\Balance\obj\Release\EditInvoice.g.cs
+C:\work\balanceproj10\Balance\obj\Release\NewInvoice.g.cs
+C:\work\balanceproj10\Balance\obj\Release\HomeWindow.g.cs
+C:\work\balanceproj10\Balance\obj\Release\Inventory.g.cs
+C:\work\balanceproj10\Balance\obj\Release\Login.g.cs
+C:\work\balanceproj10\Balance\obj\Release\PrintInvoice.g.cs
+C:\work\balanceproj10\Balance\obj\Release\Invoices.g.cs
+C:\work\balanceproj10\Balance\obj\Release\CustomerFrame.g.cs
+C:\work\balanceproj10\Balance\obj\Release\SalesReport.g.cs
+C:\work\balanceproj10\Balance\obj\Release\App.g.cs
+C:\work\balanceproj10\Balance\obj\Release\Invoice365_MarkupCompile.cache
+C:\work\balanceproj10\Balance\obj\Release\Invoice365_MarkupCompile.lref
+C:\work\balanceproj10\Balance\obj\Release\NewInvoice.baml
+C:\work\balanceproj10\Balance\obj\Release\Invoice365.g.resources
+C:\work\balanceproj10\Balance\obj\Release\Balance.AboutEWeb.resources
+C:\work\balanceproj10\Balance\obj\Release\Invoice365.Properties.Resources.resources
+C:\work\balanceproj10\Balance\obj\Release\ResGen.read.1.tlog
+C:\work\balanceproj10\Balance\obj\Release\ResGen.write.1.tlog
+C:\work\balanceproj10\Balance\obj\Release\Invoice365.exe.manifest
+C:\work\balanceproj10\Balance\obj\Release\Invoice365.application
+C:\work\balanceproj10\Balance\obj\Release\Invoice365.exe
+C:\work\balanceproj10\Balance\obj\Release\Invoice365.pdb

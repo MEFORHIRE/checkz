@@ -1,0 +1,93 @@
+﻿<Page x:Class="CheckCasher.CashCheck" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:wf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+      xmlns:ax="clr-namespace:AxRANGERLib;assembly=AxInterop.RANGERLib" 
+     xmlns:local="clr-namespace:CheckCasher" Title="Dashboard"
+     Initialized="Window_Initialized" Foreground="#FF35496A" xmlns:lex="http://schemas.root-project.org/xaml/presentation">
+    <Page.Resources>
+        <Style TargetType="ListViewItem">
+            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+        </Style>
+    </Page.Resources>
+    <DockPanel Width="Auto" Height="Auto" LastChildFill="True" Background="Transparent"
+         HorizontalAlignment="Center" VerticalAlignment="Top">
+        <Viewbox VerticalAlignment="Top" HorizontalAlignment="Center" Stretch="Fill">
+            
+                <Grid VerticalAlignment="Top" HorizontalAlignment="Center" Height="556" Width="1111"
+                 Margin="-1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="268*" />
+                        <RowDefinition Height="288*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="226.407*" />
+                        <ColumnDefinition Width="102" />
+                        <ColumnDefinition Width="181*" />
+                        <ColumnDefinition Width="215.297" />
+                        <ColumnDefinition Width="178*" />
+                    </Grid.ColumnDefinitions>
+                    <Rectangle Grid.ColumnSpan="4" Margin="18,12,27,232" Name="rectangle2" OpacityMask="#FF318E8E"
+                     Stroke="Black" Fill="SteelBlue" />
+
+                    <TabControl  Height="674" HorizontalAlignment="Left" Margin="22,183,0,0" Name="tabControl1"
+                     VerticalAlignment="Top" Width="825" Grid.ColumnSpan="4" BorderThickness="0" Grid.RowSpan="2" TabIndex="12">
+                        <TabControl.BorderBrush>
+                            <SolidColorBrush />
+                        </TabControl.BorderBrush>
+
+                        <TabItem  Header="Check Image" Name="shipping">
+                            <ScrollViewer Name="viewbox2" CanContentScroll="True" VerticalScrollBarVisibility="Visible" Background="White" >
+                                <Canvas  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="874">
+                                    <Image Name="imgCapture" Stretch="Fill" Height="168" Width="182" Canvas.Left="15" Canvas.Top="8" />
+                                    <Image Canvas.Left="234" Canvas.Top="2" Height="206" Name="checkCapture" Stretch="Fill" Width="561" />
+                                    <Image Canvas.Left="245" Canvas.Top="221" Height="206" Name="backCapture" Stretch="Fill" Width="561" />
+                                </Canvas>
+                            </ScrollViewer>
+                        </TabItem>
+
+                    </TabControl>
+
+                    <Label Foreground="White" Height="23.331" Name="title" Grid.Column="1" Margin="77,13,0,0"
+                     VerticalAlignment="Top" FontWeight="Bold" HorizontalAlignment="Left" Width="93" Grid.ColumnSpan="2"
+                     Content="Cash Check">
+                    </Label>
+                    <TextBox Height="23" Name="txID" TabIndex="1" Width="127" Margin="0,43,95,202" IsReadOnly="True" HorizontalAlignment="Right" AcceptsTab="False" />
+                    <Label FontWeight="Bold" Foreground="Black" Height="28" Name="label8" Width="46.297" Content="Amount" Grid.Column="2" Margin="38,49,161,191"></Label>
+                    <TextBox Height="23" Name="amount" TabIndex="3" Width="130" Grid.Column="2" Grid.ColumnSpan="2" Margin="116,51,215,194" AcceptsTab="False" />
+                    <Label FontWeight="Bold" Content="ID" Foreground="Black" Height="28" Name="firstNameLabel" Width="25" Margin="27,46,255,194"></Label>
+                    <Label Content="Customer ID" FontWeight="Bold" Foreground="Black" Name="label18" Width="74" Margin="219,47,14,205" />
+                    <Label FontWeight="Bold" Foreground="Black" Grid.Column="2" Margin="105,23,140,245" Name="label7" />
+                    <Label FontWeight="Bold" Foreground="Black" Height="28" Margin="11,21,296,219" Name="label4" />
+                    <Label FontWeight="Bold" Foreground="Black" Height="28" Margin="247,22,60,218" Name="label1" />
+                    <Label Content="Bank" FontWeight="Bold" Foreground="Black" Margin="25,0,229,163" Name="label10" Width="53" Height="16" VerticalAlignment="Bottom" />
+                    <TextBox Margin="84,86,93,160" Name="bank" TabIndex="4" AcceptsTab="False" />
+                    <Label Content="Account" FontWeight="Bold" Foreground="Black" Grid.Column="2" Height="28" Margin="41,82,151,158" Name="label11" Width="53" />
+                    <TextBox Grid.Column="2" Height="23" Margin="119,84,210,161" Name="acct" TabIndex="6" Width="132" Grid.ColumnSpan="2" AcceptsTab="False" />
+                    <Label Content="Routing" FontWeight="Bold" Foreground="Black" Height="28" Margin="222,86,39,154" Name="label3" Width="46.297" />
+                    <TextBox Grid.ColumnSpan="3" Height="23" Margin="302,80,0,165" Name="routing" TabIndex="5" Width="127" HorizontalAlignment="Left" AcceptsTab="False" />
+                    <Label FontWeight="Bold" Foreground="Black" Grid.Column="2" Margin="103,56,89,212" Name="label5" Width="53" />
+                    <Button Content="Save" FontSize="12" FontWeight="Normal" Height="22" Margin="119,170,26,76" Name="savecustomer" TabIndex="10" Click="saveTxn_Click" Grid.Column="3" />
+                    <Label Content="Check No" FontWeight="Bold" Foreground="Black" Height="28" Margin="24,125,227,115" Name="label2" Width="56" />
+                    <TextBox Height="23" Margin="85,124,141,121" Name="check" TabIndex="7" />
+                    <Button Content="Scan Check" FontSize="12" FontWeight="Normal" Grid.Column="2" Height="22" Margin="170,170,180,76" Name="button1" TabIndex="11" Click="button1_Click_1" Grid.ColumnSpan="2" />
+                    <WindowsFormsHost Height="20.775" Margin="301,45,222,202" Name="customerIDHost" TabIndex="2" Width="131" Grid.ColumnSpan="3">
+                        <wf:ComboBox  x:Name="customerID" AllowDrop="True" AutoCompleteMode="SuggestAppend" AutoCompleteSource="ListItems" Margin="162,58,197,0" SelectedValueChanged="custCB_SelectedValueChanged" TabIndex="1" />
+                    </WindowsFormsHost>
+                    <TextBox Height="23" HorizontalAlignment="Right" IsReadOnly="True" Margin="0,125,223,120" Name="teller" TabIndex="8" Width="127" Grid.ColumnSpan="3" />
+                    <Label Content="Teller" FontWeight="Bold" Foreground="Black" Height="28" Margin="221,130,37,110" Name="label6" />
+                    <TextBox Height="23" HorizontalAlignment="Right" IsReadOnly="True" Margin="0,123,213,122" Name="date" TabIndex="9" Width="127" Grid.Column="2" Grid.ColumnSpan="2" />
+                    <Label Content="Date" FontWeight="Bold" Foreground="Black" Height="28" Margin="40,123,156,117" Name="label9" Grid.Column="2" />
+                    <Button Content="Flag Company" FontSize="12" FontWeight="Normal" Margin="78,171,81,75" Name="flag" TabIndex="10" Click="button3_Click" Grid.Column="2" />
+                    <WindowsFormsHost Margin="53,48,32,125" Name="ranger" TabIndex="2" Width="131" Grid.Column="3">
+                        <ax:AxRanger x:Name="axRanger1"  Margin="162,58,197,0"  TabIndex="100" />
+                    </WindowsFormsHost>
+                <Button Content="Clear" FontSize="12" FontWeight="Normal" Height="22" Margin="43,171,103,75" Name="button2" TabIndex="10" Grid.Column="3" Click="button2_Click_1" />
+                <Button Content="Delete" FontSize="12" FontWeight="Normal" Height="22" Margin="3,172,172,74" Name="button3" TabIndex="10" Grid.Column="2" Click="button3_Click_1" />
+                <Grid.Background>
+                        <SolidColorBrush />
+                    </Grid.Background>
+                </Grid>
+           
+        </Viewbox>
+    </DockPanel>
+   
+</Page>

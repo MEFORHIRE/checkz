@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="urn:schemas-microsoft-com:windows:storage:mapping:CS">
+  <EntityContainerMapping StorageEntityContainer="Invoice365ModelStoreContainer" CdmEntityContainer="Invoice365Entities">
+    <EntitySetMapping Name="invoices">
+      <EntityTypeMapping TypeName="Invoice365Model.invoice">
+        <MappingFragment StoreEntitySet="invoice">
+          <ScalarProperty Name="invoice_id" ColumnName="invoice_id" />
+          <ScalarProperty Name="customer" ColumnName="customer" />
+          <ScalarProperty Name="last_updated" ColumnName="last_updated" />
+          <ScalarProperty Name="iuser" ColumnName="iuser" />
+          <ScalarProperty Name="biller" ColumnName="biller" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

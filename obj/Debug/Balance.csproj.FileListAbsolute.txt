@@ -1,0 +1,85 @@
+C:\Users\owner\AppData\Local\Temporary Projects\Balance\bin\Debug\Balance.exe
+C:\Users\owner\AppData\Local\Temporary Projects\Balance\bin\Debug\Balance.pdb
+C:\Users\owner\AppData\Local\Temporary Projects\Balance\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\owner\AppData\Local\Temporary Projects\Balance\obj\Debug\Login.baml
+C:\Users\owner\AppData\Local\Temporary Projects\Balance\obj\Debug\Login.g.cs
+C:\Users\owner\AppData\Local\Temporary Projects\Balance\obj\Debug\App.g.cs
+C:\Users\owner\AppData\Local\Temporary Projects\Balance\obj\Debug\Balance_MarkupCompile.cache
+C:\Users\owner\AppData\Local\Temporary Projects\Balance\obj\Debug\Balance.g.resources
+C:\Users\owner\AppData\Local\Temporary Projects\Balance\obj\Debug\Balance.Properties.Resources.resources
+C:\Users\owner\AppData\Local\Temporary Projects\Balance\obj\Debug\Balance.csproj.GenerateResource.Cache
+C:\Users\owner\AppData\Local\Temporary Projects\Balance\obj\Debug\Balance.exe
+C:\Users\owner\AppData\Local\Temporary Projects\Balance\obj\Debug\Balance.pdb
+C:\Users\owner\AppData\Local\Temporary Projects\Balance\obj\Debug\Dashboard.baml
+C:\Users\owner\AppData\Local\Temporary Projects\Balance\obj\Debug\Dashboard.g.cs
+C:\work\balanceproj\Balance\obj\Debug\ResolveAssemblyReference.cache
+C:\work\balanceproj\Balance\obj\Debug\CurrentBalance.baml
+C:\work\balanceproj\Balance\obj\Debug\Dashboard.baml
+C:\work\balanceproj\Balance\obj\Debug\HomeWindow.baml
+C:\work\balanceproj\Balance\obj\Debug\Login.baml
+C:\work\balanceproj\Balance\obj\Debug\CurrentBalance.g.cs
+C:\work\balanceproj\Balance\obj\Debug\Dashboard.g.cs
+C:\work\balanceproj\Balance\obj\Debug\HomeWindow.g.cs
+C:\work\balanceproj\Balance\obj\Debug\Login.g.cs
+C:\work\balanceproj\Balance\obj\Debug\App.g.cs
+C:\work\balanceproj\Balance\obj\Debug\Balance.Properties.Resources.resources
+C:\work\balanceproj\Balance\obj\Debug\Balance.csproj.GenerateResource.Cache
+C:\work\balanceproj\Balance\obj\Debug\Inventory.baml
+C:\work\balanceproj\Balance\obj\Debug\Inventory.g.cs
+C:\work\balanceproj\Balance\obj\Debug\Debtors.baml
+C:\work\balanceproj\Balance\obj\Debug\Debtors.g.cs
+C:\work\balanceproj\Balance\bin\Debug\EWeb Balance.exe.config
+C:\work\balanceproj\Balance\bin\Debug\EWeb Balance.exe.manifest
+C:\work\balanceproj\Balance\bin\Debug\EWeb Balance.application
+C:\work\balanceproj\Balance\bin\Debug\EWeb Balance.exe
+C:\work\balanceproj\Balance\bin\Debug\EWeb Balance.pdb
+C:\work\balanceproj\Balance\obj\Debug\EWeb Balance_MarkupCompile.cache
+C:\work\balanceproj\Balance\obj\Debug\EWeb Balance.g.resources
+C:\work\balanceproj\Balance\obj\Debug\Balance.AboutEWeb.resources
+C:\work\balanceproj\Balance\obj\Debug\EWeb Balance.exe.manifest
+C:\work\balanceproj\Balance\obj\Debug\EWeb Balance.application
+C:\work\balanceproj\Balance\obj\Debug\EWeb Balance.exe
+C:\work\balanceproj\Balance\obj\Debug\EWeb Balance.pdb
+C:\work\balanceproj10\Balance\bin\Debug\EWeb Balance.exe.config
+C:\work\balanceproj10\Balance\obj\Debug\EWeb Balance.exe
+C:\work\balanceproj10\Balance\obj\Debug\EWeb Balance.pdb
+C:\work\balanceproj10\Balance\bin\Debug\EWeb Balance.exe.manifest
+C:\work\balanceproj10\Balance\bin\Debug\EWeb Balance.application
+C:\work\balanceproj10\Balance\bin\Debug\EWeb Balance.exe
+C:\work\balanceproj10\Balance\bin\Debug\EWeb Balance.pdb
+C:\work\balanceproj10\Balance\obj\Debug\ResolveAssemblyReference.cache
+C:\work\balanceproj10\Balance\obj\Debug\HomeWindow.baml
+C:\work\balanceproj10\Balance\obj\Debug\Inventory.baml
+C:\work\balanceproj10\Balance\obj\Debug\Login.baml
+C:\work\balanceproj10\Balance\obj\Debug\HomeWindow.g.cs
+C:\work\balanceproj10\Balance\obj\Debug\Inventory.g.cs
+C:\work\balanceproj10\Balance\obj\Debug\Login.g.cs
+C:\work\balanceproj10\Balance\obj\Debug\App.g.cs
+C:\work\balanceproj10\Balance\obj\Debug\EWeb Balance_MarkupCompile.cache
+C:\work\balanceproj10\Balance\obj\Debug\EWeb Balance_MarkupCompile.lref
+C:\work\balanceproj10\Balance\obj\Debug\EWeb Balance.g.resources
+C:\work\balanceproj10\Balance\obj\Debug\Balance.AboutEWeb.resources
+C:\work\balanceproj10\Balance\obj\Debug\Balance.Properties.Resources.resources
+C:\work\balanceproj10\Balance\obj\Debug\Balance.csproj.GenerateResource.Cache
+C:\work\balanceproj10\Balance\obj\Debug\EWeb Balance.exe.manifest
+C:\work\balanceproj10\Balance\obj\Debug\EWeb Balance.application
+C:\work\balanceproj10\Balance\bin\Debug\Interop.XPS_SHL_DLLLib.dll
+C:\work\balanceproj10\Balance\obj\Debug\Interop.XPS_SHL_DLLLib.dll
+C:\work\balanceproj10\Balance\obj\Debug\Balance.csproj.ResolveComReference.cache
+C:\work\balanceproj10\Balance\obj\Debug\invoice.baml
+C:\work\balanceproj10\Balance\obj\Debug\NewInvoice.g.cs
+C:\work\balanceproj10\Balance\obj\Debug\NewInvoice.baml
+C:\work\balanceproj10\Balance\obj\Debug\PrintInvoice.baml
+C:\work\balanceproj10\Balance\obj\Debug\Invoices.baml
+C:\work\balanceproj10\Balance\obj\Debug\PrintInvoice.g.cs
+C:\work\balanceproj10\Balance\obj\Debug\Invoices.g.cs
+C:\work\balanceproj10\Balance\bin\Debug\WPFToolkit.dll
+C:\work\balanceproj10\Balance\bin\Debug\WPFToolkit.pdb
+C:\work\balanceproj10\Balance\obj\Debug\BureauBlue.baml
+C:\work\balanceproj10\Balance\obj\Debug\CustomerFrame.baml
+C:\work\balanceproj10\Balance\obj\Debug\ExpressionLight.baml
+C:\work\balanceproj10\Balance\obj\Debug\ShinyBlue.baml
+C:\work\balanceproj10\Balance\obj\Debug\Skins.baml
+C:\work\balanceproj10\Balance\obj\Debug\WhistlerBlue.baml
+C:\work\balanceproj10\Balance\obj\Debug\App.baml
+C:\work\balanceproj10\Balance\obj\Debug\CustomerFrame.g.cs

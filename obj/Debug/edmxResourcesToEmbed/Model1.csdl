@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Invoice365Model" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2006/04/edm">
+  <EntityContainer Name="Invoice365Entities">
+    <EntitySet Name="invoices" EntityType="Invoice365Model.invoice" />
+  </EntityContainer>
+  <EntityType Name="invoice">
+    <Key>
+      <PropertyRef Name="invoice_id" />
+    </Key>
+    <Property Name="invoice_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="customer" Type="String" MaxLength="32" Unicode="true" FixedLength="false" />
+    <Property Name="last_updated" Type="DateTime" Nullable="false" />
+    <Property Name="iuser" Type="String" Nullable="false" MaxLength="32" Unicode="true" FixedLength="false" />
+    <Property Name="biller" Type="String" MaxLength="32" Unicode="true" FixedLength="false" />
+  </EntityType>
+</Schema>

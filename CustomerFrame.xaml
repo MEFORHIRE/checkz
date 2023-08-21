@@ -1,0 +1,155 @@
+﻿<local:Inv365Sortable x:Class="CheckCasher.CustomerFrame" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:wf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+     xmlns:local="clr-namespace:CheckCasher" Title="Dashboard"     
+     Initialized="Window_Initialized" Foreground="#FF35496A" xmlns:lex="http://schemas.root-project.org/xaml/presentation">
+    <Page.Resources>
+        <Style TargetType="ListViewItem">
+            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+        </Style>
+    </Page.Resources>
+    <DockPanel Width="Auto" Height="Auto" LastChildFill="True" Background="Transparent"
+         HorizontalAlignment="Center" VerticalAlignment="Top">
+        <Viewbox VerticalAlignment="Top" HorizontalAlignment="Center" Stretch="Fill">
+            <Grid VerticalAlignment="Top" HorizontalAlignment="Center" Height="556" Width="1111"
+                 Margin="-1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="268*" />
+                    <RowDefinition Height="288*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="226.407*" />
+                    <ColumnDefinition Width="102" />
+                    <ColumnDefinition Width="181*" />
+                    <ColumnDefinition Width="215.297" />
+                    <ColumnDefinition Width="178*" />
+                </Grid.ColumnDefinitions>
+                <Rectangle Grid.ColumnSpan="4" Margin="18,12,27,232" Name="rectangle2" OpacityMask="#FF318E8E"
+                     Stroke="Black" Fill="SteelBlue" />
+                <TabControl Height="215" HorizontalAlignment="Left" Margin="22,250,0,0" Name="tabControl1"
+                     VerticalAlignment="Top" Width="825" Grid.ColumnSpan="4" BorderThickness="0" Grid.RowSpan="2">
+                    <TabControl.BorderBrush>
+                        <SolidColorBrush />
+                    </TabControl.BorderBrush>
+                    <TabItem Header="Identification" Name="shipping" TabIndex="16">
+                        <Canvas HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                            <Image Name="imgCapture" Stretch="Fill" Height="168" Width="182" Canvas.Left="15" Canvas.Top="8" />
+                            <Image Canvas.Left="240" Canvas.Top="7" Height="168" Name="licenseCapture" Stretch="Fill" Width="389" />
+                        </Canvas>
+                    </TabItem>
+                    <TabItem Header="Transactions" Name="billing" TabIndex="17">
+                        
+                        <ListView MouseDoubleClick="custView_MouseDoubleClick" Name="custView" ClipToBounds="False" AllowDrop="True"
+                     Grid.IsSharedSizeScope="True" BorderThickness="2" BorderBrush="#FF809AB2" Grid.ColumnSpan="4"
+                      FontFamily="Arial" FontSize="14" TabIndex="13" Grid.RowSpan="2">
+                            <ListView.View>
+                                <GridView>
+                                    <GridViewColumn Width="150" Header="Date" />
+                                    <GridViewColumn Width="150" Header="Txn Id" />
+                                    <GridViewColumn Width="150" Header="Customer" />
+                                    <GridViewColumn Width="150" Header="Amount" />
+                                    <GridViewColumn Width="150" Header="Routing No" />
+                                    <GridViewColumn Width="150" Header="Acct No" />
+                                    <!--<GridViewColumn Width="140" Header="Barcode" />-->
+                                    <GridViewColumn Width="150" Header="Check No" />
+                                    <GridViewColumn Width="150" Header="Bank" />
+                                    <!--<GridViewColumn Header="Price Sell" />-->
+                                </GridView>
+                            </ListView.View>
+                            <ListView.Background>
+                                <SolidColorBrush />
+                            </ListView.Background>
+                        </ListView>
+                       
+                    </TabItem>
+                    
+                    
+                </TabControl>
+                
+                <Label Foreground="White" Height="23.331" Name="title" Grid.Column="1" Margin="77,13,0,0"
+                     VerticalAlignment="Top" FontWeight="Bold" HorizontalAlignment="Left" Width="93" Grid.ColumnSpan="2"
+                     Content="AddCustomer">
+                </Label>
+                
+                        <Canvas Height="118" Name="canvas1" Width="818" Grid.ColumnSpan="4" Margin="24,75,28,75">
+                            <Label FontWeight="Bold" Foreground="Black" Name="label7" Canvas.Left="519" Canvas.Top="18">
+                                <LocText ResourceIdentifierKey="CheckCasher:CustomerFrame:City1" xmlns="http://schemas.root-project.org/xaml/presentation" />
+                            </Label>
+                            <Label FontWeight="Bold" Foreground="Black" Name="label4" Height="28" Canvas.Left="16"
+                                 Canvas.Top="16">
+                                <LocText ResourceIdentifierKey="CheckCasher:CustomerFrame:Street1" xmlns="http://schemas.root-project.org/xaml/presentation" />
+                            </Label>
+                    <TextBox Height="23" FontFamily="Arial" FontSize="16" Name="street1" TabIndex="4" Canvas.Left="93" Canvas.Top="16"
+                                 Width="131" />
+                            <Label FontWeight="Bold" Foreground="Black" Height="28" Name="label1" Canvas.Left="252"
+                                 Canvas.Top="17">
+                                <LocText ResourceIdentifierKey="CheckCasher:CustomerFrame:Street2" xmlns="http://schemas.root-project.org/xaml/presentation" />
+                            </Label>
+                    <TextBox Height="23" FontFamily="Arial" FontSize="16" Name="street2" TabIndex="5" Canvas.Left="334" Canvas.Top="17"
+                                 Width="127" />
+                            <!--<TextBox Name="city" TabIndex="6" Width="129.402" Canvas.Left="93" Canvas.Top="87" />-->
+                            <!--<TextBox Height="23" Name="phone" TabIndex="8" Canvas.Left="333" Canvas.Top="87" Width="125" />-->
+                            <Label FontWeight="Bold" Foreground="Black" Height="28" Name="label8" Width="46.297"
+                                 Canvas.Left="16" Canvas.Top="50" Content="State">
+                                
+                            </Label>
+                    <TextBox FontFamily="Arial" FontSize="16" Height="23" Name="state" TabIndex="7" Canvas.Left="94" Canvas.Top="52" Width="130" />
+                            <Label FontWeight="Bold" Foreground="Black" Name="label10" Width="53" Canvas.Left="251"
+                                 Canvas.Top="89" Content="SSN">
+                                
+                            </Label>
+                            <!--<TextBox Name="ssn" TabIndex="11" Canvas.Left="334" Canvas.Top="85" Width="130" />-->
+                    <WindowsFormsHost FontFamily="Arial" FontSize="16" Height="20.775" Name="ssnWF" TabIndex="9" Width="131" Canvas.Left="332" Canvas.Top="84" Focusable="True">
+                        <wf:MaskedTextBox Name="ssn" Margin="162,58,197,0" Mask="000-00-0000" x:Name="ssn" TabIndex="1"/>
+                    </WindowsFormsHost>
+                    <Label FontWeight="Bold" Foreground="Black" Height="28" Name="label11" Width="53"
+                                 Canvas.Left="16" Canvas.Top="85" Content="DOB">                               
+                            </Label>
+                            <!--<TextBox Height="23" Name="dob" TabIndex="10" Canvas.Left="93" Canvas.Top="84"
+                                 Width="132" KeyUp="dob_KeyUp" />-->
+
+                    <WindowsFormsHost FontFamily="Arial" FontSize="16" Height="20.775" Name="dobWF" TabIndex="9" Width="131" Canvas.Left="94" Canvas.Top="84" Focusable="True">
+                        <wf:MaskedTextBox  Name="dob" Margin="162,58,197,0" Mask="00/00/0000" x:Name="dob" TabIndex="1"/>                       
+                    </WindowsFormsHost>
+
+                    <Label Canvas.Left="251" Canvas.Top="54" Content="Zip"
+                                 FontWeight="Bold" Foreground="Black" Height="28" Name="label3" Width="46.297" />
+                    <TextBox FontFamily="Arial" FontSize="16" Canvas.Left="334" Canvas.Top="50" Height="23" Name="zip" TabIndex="8" Width="127" />
+                            <Label FontWeight="Bold" Foreground="Black" Name="label5" Width="53" Canvas.Left="517" Canvas.Top="51">
+                                <LocText ResourceIdentifierKey="CheckCasher:CustomerFrame:Phone1" xmlns="http://schemas.root-project.org/xaml/presentation" />
+                            </Label>
+                            <Label FontWeight="Bold" Foreground="Black" Height="28" Name="firstNameLabel" Width="63" Canvas.Left="246" Canvas.Top="-25">
+                                <LocText ResourceIdentifierKey="CheckCasher:CustomerFrame:FirstName1" xmlns="http://schemas.root-project.org/xaml/presentation" />
+                            </Label>
+                    <TextBox FontFamily="Arial" FontSize="16" Height="23" Name="firstName" TabIndex="2" Width="127" Canvas.Left="334" Canvas.Top="-25" />
+                            <Label FontWeight="Bold" Foreground="Black" Name="lastNameLabel" Width="63" Canvas.Left="517" Canvas.Top="-23">
+                                <LocText ResourceIdentifierKey="CheckCasher:CustomerFrame:LastName1" xmlns="http://schemas.root-project.org/xaml/presentation" />
+                            </Label>
+                    <TextBox FontFamily="Arial" FontSize="16" Name="lastName" TabIndex="3" Width="131" Canvas.Left="597" Canvas.Top="-27" />
+                            <Label Content="Customer ID" FontWeight="Bold" Foreground="Black" Name="label18" Width="74" Canvas.Left="13" Canvas.Top="-25" />
+                    <TextBox FontFamily="Arial" FontSize="16" Canvas.Left="598" Canvas.Top="14" Height="23" Name="city" TabIndex="6" Width="132" />
+                    <TextBox FontFamily="Arial" FontSize="16" Canvas.Left="599" Canvas.Top="49" Height="23" Name="phone" TabIndex="8" Width="132" />
+                            <Label Canvas.Left="249" Canvas.Top="126" Content="Weight" FontWeight="Bold" Foreground="Black" Name="label2" Width="53" />
+                    <TextBox FontFamily="Arial" FontSize="16" Canvas.Left="334" Canvas.Top="123" Name="weight" TabIndex="13" Width="47" />
+                            <Label Canvas.Left="14" Canvas.Top="122" Content="Height" FontWeight="Bold" Foreground="Black" Height="28" Name="label19" Width="53" />
+                    <TextBox  FontFamily="Arial" FontSize="16" Canvas.Left="92" Canvas.Top="121" Height="23" Name="height" TabIndex="12" Width="55" />
+                </Canvas>
+                <Button FontSize="12" FontWeight="Normal" Name="savecustomer" Click="savecustomer_Click" TabIndex="14" Height="22" Grid.Column="2" Margin="20,233,0,13" HorizontalAlignment="Left" Width="98">
+                    <LocText ResourceIdentifierKey="CheckCasher:CustomerFrame:SaveCustomer" xmlns="http://schemas.root-project.org/xaml/presentation" />
+                </Button>
+                <Button Content="Terrorist List" FontSize="12" FontWeight="Normal" Height="22" Margin="0,233,33,13" Name="button1" TabIndex="15" Grid.Column="2" Click="button1_Click_1" HorizontalAlignment="Right" Width="89" />
+                <Button Content="Flag As Bad" FontSize="12" FontWeight="Normal" Height="22" Name="flag" TabIndex="15" Grid.Column="2" Margin="0,234,175,0" VerticalAlignment="Top" Click="flag_Click" Grid.ColumnSpan="2" HorizontalAlignment="Right" Width="68" />
+                <Button Content="Cash Check" FontSize="12" FontWeight="Normal" Height="22" Margin="44,235,0,0" Name="button2" TabIndex="15" VerticalAlignment="Top" Grid.Column="3" Click="button2_Click" HorizontalAlignment="Left" Width="67" />
+                <WindowsFormsHost FontFamily="Arial" FontSize="16" GotFocus="customerID_GotFocus" Height="20.775" Name="customerID" TabIndex="1" Width="151" Focusable="true" Margin="118,51,58,196">
+                    <wf:ComboBox  GotFocus="customerCB_GotFocus"  TabStop="True"  x:Name="customerCB" SelectedValueChanged="custCB_SelectedValueChanged" AllowDrop="True" AutoCompleteMode="SuggestAppend" AutoCompleteSource="ListItems" Margin="162,58,197,0"/>
+                </WindowsFormsHost>
+                <Button Content="Clear" FontSize="12" FontWeight="Normal" Height="22" Name="button3" TabIndex="15" Grid.Column="3" Margin="118,234,35,12" Click="button3_Click" />
+                <Grid.Background>
+                    <SolidColorBrush />
+                </Grid.Background>
+            </Grid>
+        </Viewbox>
+    </DockPanel>
+    <Page.Background>
+        <SolidColorBrush />
+    </Page.Background>
+</local:Inv365Sortable>

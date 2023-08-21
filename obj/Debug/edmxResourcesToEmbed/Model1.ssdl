@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Invoice365Model.Store" Alias="Self" Provider="System.Data.SqlServerCe.3.5" ProviderManifestToken="3.5" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2006/04/edm/ssdl">
+  <EntityContainer Name="Invoice365ModelStoreContainer">
+    <EntitySet Name="invoice" EntityType="Invoice365Model.Store.invoice" store:Type="Tables" />
+  </EntityContainer>
+  <EntityType Name="invoice">
+    <Key>
+      <PropertyRef Name="invoice_id" />
+    </Key>
+    <Property Name="invoice_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="customer" Type="nvarchar" MaxLength="32" />
+    <Property Name="last_updated" Type="datetime" Nullable="false" />
+    <Property Name="iuser" Type="nvarchar" Nullable="false" MaxLength="32" />
+    <Property Name="biller" Type="nvarchar" MaxLength="32" />
+  </EntityType>
+  <!--Errors Found During Generation:
+            warning 6013: The table/view 'invoice_detail' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+            
+            <EntityType Name="invoice_detail">
+              <Property Name="item_code" Type="nvarchar" MaxLength="16" />
+              <Property Name="price_sell" Type="float" />
+              <Property Name="qty" Type="float" />
+              <Property Name="unit_qty" Type="float" />
+              <Property Name="amount" Type="float" />
+              <Property Name="invoice_id" Type="int" />
+              <Property Name="item" Type="nvarchar" MaxLength="64" />
+            </EntityType>-->
+</Schema>

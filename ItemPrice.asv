@@ -1,0 +1,50 @@
+classdef ItemPrice   < handle
+    properties (SetAccess = private)
+        itemlist;
+    end;
+    methods
+        function u = ItemPrice(items_)
+            u.itemlist = items_;
+        end;
+        
+        function [ points, sql ] = PlotItemPrice(obj,conn)
+            count = [1 2 3 4 5 6 7 8 9 10];
+            [points,sql] = PlotPrice(u,conn);
+            plot(count,points.y1,'b-',count,points.y2,'r-',count,points.y3,'k-',count,points.y4,'g-',count,points.y5,'m-');
+            legend(obj.itemlist);
+            xlabel('Date');
+            ylabel('Price');
+            title('Price Range');
+            
+        end;
+        
+        function [ points, sql ] = PlotPrice(obj,conn)
+            for i = 1:5
+                t = strcat('y',num2str(i));
+                [points.(t), sql] = PlotPrice_(obj,conn,i);
+                points.(t) = fetch(points.(t), 10);
+                points.(t) = cell2mat(points.(t).Data(:,2));
+                if(length(points.(t)) < 10)
+                    len = length(points.(t));
+                    A = points.(t);
+                    for j= len+1:10
+                        A = [A;[0]];
+                    end;
+                    points.(t) = A;
+                end;
+            end;
+        end
+        
+        function [ curs, sql ] = PlotSales_(obj,conn, item)            
+            if(strcmp(obj.itemlist(item), ''))
+                curs = exec(conn, 'select ceil(DATE_FORMAT(created,"%d")), sum(qty) from txn where type=1 group by date(created) order by date(created) desc');
+            else
+                sql1 = 'select ceil(DATE_FORMAT(created,"%d")), sum(qty) from txn where type=1 and item="';
+                sql2 = '" group by date(created) order by date(created) desc';
+                sql = strcat(sql1, obj.itemlist(item), sql2);
+                curs = exec(conn,sql);
+            end
+        end
+    end
+end
+

@@ -1,0 +1,53 @@
+﻿<StackPanel
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  Background="Cornsilk">
+
+  <StackPanel.Resources>
+    <XmlDataProvider x:Key="InvoiceData" Source="c:\invoice.xml" XPath="/invoice"/>
+    <DataTemplate x:Key="InvoiceTemplate">
+
+      <StackPanel Margin="5">
+
+        <TextBlock FontSize="12" FontWeight="Bold" Foreground="Black">
+
+          <TextBlock.Text><Binding XPath="itemcode"/></TextBlock.Text>
+          
+        </TextBlock>
+        <TextBlock FontSize="12" FontWeight="Bold" Foreground="Black">
+          <TextBlock.Text>            <Binding XPath="qty"/>
+          </TextBlock.Text>
+        </TextBlock>
+        <TextBlock FontSize="12" FontWeight="Bold" Foreground="Black">
+          <TextBlock.Text>
+            <Binding XPath="amount"/>
+          </TextBlock.Text>
+        </TextBlock>
+      </StackPanel>
+    </DataTemplate>
+
+
+  </StackPanel.Resources>
+
+  
+
+    <TextBlock FontSize="14" FontWeight="Bold" Margin="10">Invoice</TextBlock>
+
+    <ListBox
+
+         Background="#fff"
+
+         BorderThickness="2"
+
+         BorderBrush="White"
+
+         Margin="10"
+
+         ItemsSource="{Binding Source={StaticResource InvoiceData}, XPath=invoiceline}"
+
+         ItemTemplate="{StaticResource InvoiceTemplate}"/>
+
+  </StackPanel>
+
+
+
